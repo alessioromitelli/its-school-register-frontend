@@ -7,3 +7,12 @@ function controllo() {
         console.log("aaaaaaaaaaaaaaaaa")
     }
 }
+function mostra(){
+    let password = document.getElementById("password");
+    
+    if(password.type==="password"){
+        password.type="text"
+    }else{
+        password.type="password"
+    }
+ }

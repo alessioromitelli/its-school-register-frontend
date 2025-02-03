@@ -7,13 +7,8 @@ body {
     height: 100vh;
     margin: 0;
 
-}.logo{
-    width: 50%;  
-    margin-bottom: 20px;  
-    position: relative;
-    bottom: 20px;
-
 }
+
 .login-container {
     background-color:white;
     padding:40px;
@@ -35,14 +30,39 @@ label {
     display: block;
     
 }
-input {
+#username {
     width: 90%;
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid rgb(0, 0, 0);
     border-radius: 20px;
 }
-button {
+.password-container{
+    display: flex;
+    align-items: center;
+    width: 110%;
+}
+#password {
+    width: 85%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+#buttonShow {
+    padding:  5px 5px ;
+    margin-left: 5px;
+    background-color: #ffffff;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+
+
+
+#buttonAccedi {
     width: 100%;
     padding: 10px;
     background-color: #20911c;

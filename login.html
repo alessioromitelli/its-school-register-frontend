@@ -16,10 +16,12 @@
             <input type="text" id="username" name="username" maxlength="40" required autofocus>
             
             <label for="password">Password</label>
+            <div class="password-container"> 
             <input type="password" id="password" name="password" maxlength="20" required>
-            
+            <button  type="button" id="buttonShow" onclick=mostra()> <img src="icons8-mostra-password-30.png" alt="showPdw"></button>
+            </div>
+            <button type="submit" id="buttonAccedi" onclick=controllo()>Accedi</button>
         </form>
-        <button type="submit" onclick="controllo()">Accedi</button>
     </div>
 
 </body>
