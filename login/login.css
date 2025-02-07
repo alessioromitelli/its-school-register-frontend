@@ -45,7 +45,7 @@ label {
 }
 
 #username:focus, #password:focus {
-    border-color: #20911c; 
+    border-color: #000000; 
 }
 
 
